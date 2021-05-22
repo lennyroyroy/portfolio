@@ -2741,7 +2741,7 @@ input, select, textarea {
 
 	#banner {
 		background-color: #2a2b2e;
-		background-image: url("images/overlay2.png"), url("../../images/banner.jpg");
+		background-image: url("images/coffee.jpg"), url("../../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
