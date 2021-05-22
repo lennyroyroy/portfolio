@@ -2741,14 +2741,19 @@ input, select, textarea {
 
 	#banner {
 		background-color: #2a2b2e;
-		background-image: url("images/coffee.jpg"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-image: url("images/coffeee.jpg"), url("../../images/banner.jpg");
+		background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("images/coffeee.jpg"); /* The least supported option. */
+		background-position: top left,						
+		center center;
+		background-repeat:						
+		no-repeat;
+		background-size: cover;,							
 		border-top: 0 !important;
 		color: #cacacb;
 		padding: 6em 3em;
 		text-align: center;
+		min-height: 800px;
+
 	}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
